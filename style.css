@@ -1,0 +1,74 @@
+body {
+  background: #eee;
+  font-family: "Rubik";
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin: 50px auto;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 20px;
+  font-style: italic;
+  padding: 10px;
+}
+
+.input-container {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.input-container input {
+  flex: 1;
+  padding: 7px;
+  margin-right: 5px;
+  outline: none;
+  font-size: 25px;
+  font-family: inherit;
+  color: #333;
+  border: 2px solid #ccc;
+}
+
+.input-button {
+  font-size: 20px;
+  padding: 7px;
+  border: none;
+  background: rgb(65, 65, 65);
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.tag-container {
+  border: 2px solid #ccc;
+  background: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 6px;
+}
+
+.tag-container .tag {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  margin: 5px;
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background: #eee;
+  color: #333;
+  font-size: 20px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 2px 1px #fff;
+  cursor: default;
+}
+
+.tag .material-icons {
+  color: rgb(107, 105, 105);
+  margin-left: 5px;
+  cursor: pointer;
+}

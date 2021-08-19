@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tags form</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="checkbox-container">
+        <label for="readonly">Do you want to turn on the read-only mode?</label>
+        <input type="checkbox" id="readonly" />
+      </div>
+
+      <div class="readonly-container">
+        <div class="input-container">
+          <input placeholder="Please, enter your tags..." type="text" />
+          <button class="input-button button-add">ADD</button>
+        </div>
+        <div class="tag-container"></div>
+      </div>
+    </div>
+  </body>
+</html>
